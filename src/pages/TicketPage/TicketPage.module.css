@@ -1,0 +1,52 @@
+.ticketPage {
+    padding: 36px 136px;
+}
+
+.returnButton {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+.returnArrowImage {
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+}
+
+.bottomContainer {
+    margin: 0 11px;
+}
+
+.commentContainer {
+    margin-bottom: 12px;
+}
+
+.addCommentButton {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.plusImage {
+    height: 12px;
+    width: 12px;
+    margin-right: 8px;
+}
+
+.addCommentButtonText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: #929292;
+}
+
+.buttonContainer {
+    text-align: center;
+}

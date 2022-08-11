@@ -1,0 +1,15 @@
+.checkbox {
+    display: flex;
+    cursor: pointer;
+}
+
+.text {
+    margin-left: 6px;
+    padding-top: 1px;
+    color: #292929;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}

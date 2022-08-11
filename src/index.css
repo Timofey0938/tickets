@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial, serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  color: #333333;
+  text-decoration: none;
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  height: 0;
+  width: 6px;
+  background-color: #EAEAEA;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B6B6B6;
+  border-radius: 3px;
+}

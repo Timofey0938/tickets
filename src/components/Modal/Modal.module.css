@@ -1,0 +1,41 @@
+.modalBackground {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.56);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s;
+    z-index: 4;
+}
+
+.modalWindow {
+    background: #F5F5F5;
+    border-radius: 11px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+.modalBackgroundActive {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modalWindowActive {
+    transform: scale(1);
+}
+
+.closeContainer {
+    height: 64px;
+    padding: 31px 31px 0 0;
+    text-align: right;
+}
+
+.closeCrossImage {
+    cursor: pointer;
+}

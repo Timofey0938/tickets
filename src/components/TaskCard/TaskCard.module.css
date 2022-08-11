@@ -1,0 +1,55 @@
+.card {
+    width: 249px;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 2px 0 #0000001F;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.upRow {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 206px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.more {
+    display: flex;
+    padding: 5px 3px;
+}
+
+.bottomRow {
+    display: flex;
+    align-items: flex-end;
+}
+
+.tagContainer {
+    width: 184px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notesContainer {
+    height: 17px;
+    width: 41px;
+    padding: 1px;
+    display: flex;
+    justify-content: end;
+}
+
+.noteImage {
+    height: 17px;
+    width: 17px;
+}
+
+.descriptionImage {
+    margin-left: 6px;
+}

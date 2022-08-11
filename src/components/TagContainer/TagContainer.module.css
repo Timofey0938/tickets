@@ -1,0 +1,5 @@
+.tagContainer {
+    margin: -8px 0 0 -8px;
+    display: flex;
+    flex-wrap: wrap;
+}
